@@ -1,4 +1,5 @@
 language: php
+
 solution: "./WebApi.SoftBuilder/WebApi.SoftBuilder.sln"
 
 cache:
