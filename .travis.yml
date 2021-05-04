@@ -1,5 +1,5 @@
 language: php
-solution: "./WebApi.SoftBuilder/WebApi.SoftBuilder.sln"
+solution: ".php-test.sln"
 
 cache:
   directories:
