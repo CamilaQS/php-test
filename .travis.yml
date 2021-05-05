@@ -1,5 +1,4 @@
 language: php
-solution: ".php-test.sln"
 
 cache:
   directories:
@@ -25,4 +24,4 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
-  email: dev@livecommerce.com.br
+  email: camila.q.s@hotmail.com.br
