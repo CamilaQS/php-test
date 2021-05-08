@@ -57,7 +57,7 @@ class MemoryCollection implements CollectionInterface
      */
     public function count(): int
     {
-        return count($this->data) + 1;
+        return count($this->data) ;
     }
 
     /**
@@ -67,4 +67,6 @@ class MemoryCollection implements CollectionInterface
     {
         $this->data = [];
     }
+
+   
 }
