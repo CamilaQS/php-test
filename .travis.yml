@@ -3,7 +3,8 @@ language: php
 cache:
   directories:
     - $HOME/.composer/cache/files
-
+  CODECOV_TOKEN:
+  '395ed320-2973-4461-88ce-7b3d3970be1a'
 matrix:
   fast_finish: true
   include:
@@ -12,7 +13,7 @@ matrix:
 
 before-install:
   - composer self-update
-
+ 
 install:
   - composer install --prefer-source --no-interaction --dev
 
@@ -22,7 +23,7 @@ script:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  CODECOV_TOKEN='395ed320-2973-4461-88ce-7b3d3970be1a'
+ 
 
 notifications:
   email: dev@livecommerce.com.br
