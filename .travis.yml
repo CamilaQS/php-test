@@ -24,4 +24,4 @@ after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 notifications:
-  email: camila.q.s@hotmail.com.br
+  email: dev@livecommerce.com.br
