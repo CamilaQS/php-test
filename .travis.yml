@@ -3,8 +3,7 @@ language: php
 cache:
   directories:
     - $HOME/.composer/cache/files
-  CODECOV_TOKEN:
-  '395ed320-2973-4461-88ce-7b3d3970be1a'
+
 matrix:
   fast_finish: true
   include:
